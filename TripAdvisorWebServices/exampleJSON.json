@@ -1,0 +1,47 @@
+[
+   {
+        "name": "استان خراسان",
+        "type": "parent",
+        "subLayers":
+        [
+      { 
+        "name": "شهر مشهد",
+        "type": "parent",
+        "subLayers":
+        [
+          {
+            "type":"vector",
+            "name":"هتل ها",
+            "vectorObjectsType":"Point",
+            "formSchemaKey":"restaurant",
+            "vectorObjects":
+             [
+              { 
+                "name" : "رستوران اکبر و رفقا",
+                "type" : "Point",
+                "formInstance" : 
+                {
+                  "score" : 5,
+                  "tags" : "blah, blah, blah"
+                },
+                "point" :
+                {
+                  "type" : "point",
+                  "coordinates" : [ 50.3998, 31.6231 ]
+                }
+              }
+             ]
+          }
+        ]
+      },
+      {
+        "name": "شهر فلان جا",
+        "type": "parent",
+        "subLayers":
+        [
+          
+        ]
+      }
+        ]
+    }
+]
